@@ -1,0 +1,119 @@
+/* Fonts */
+body {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@media only screen and (max-width: 887px) {
+    .contact-form {
+        margin-top: -100px; 
+    }
+    .text-1 {
+    padding: 1 25px 0 25px
+}
+}
+
+nav {
+    
+}
+
+#logo {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+
+
+.content-1 {
+    padding-top: 100px;
+}
+
+.section-1 {
+    margin-top: 5%; 
+}
+
+
+.contact-form {
+    opacity: .99; 
+    border: 10px; 
+    border-color: aqua;
+    margin-right: 10px;
+    height: 600px; 
+    position: absolute;
+    bottom: 0; 
+}
+
+.text-1 {
+    margin-top: 5%;
+    padding: 1 25px 0 25px
+}
+
+.custom-button {
+    width: 150px; 
+}
+
+.transform {
+  -webkit-transition: all 2s ease;  
+  -moz-transition: all 2s ease;  
+  -o-transition: all 2s ease;  
+  -ms-transition: all 2s ease;  
+  transition: all .2s ease;
+}
+
+.custom-button-active {
+    width: 40px;
+}
+
+.background-image {
+    top:;
+}
+
+#bm {
+    min-width: 100%; 
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hello {
+    background-color: aliceblue;
+}
+
+#myVideo {
+    position: relative;
+}
+
+
+/* Animations for the loading button */
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
